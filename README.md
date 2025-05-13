@@ -67,10 +67,10 @@ For faster scans:
 
 ## 🛠️ How It Works
 
-1. **Step 1**: Detects WAF presence on the target website using `wafw00f`.
-2. **Step 2**: Crawls the site using `Katana`, extracting JavaScript-heavy links, sitemaps, and robots.txt.
-3. **Step 3**: Probes discovered URLs using `HTTPX` to identify live hosts.
-4. **Step 4**: Scans live URLs for vulnerabilities with `Nuclei`, leveraging its powerful template engine.
+ **Step 1**: Detects WAF presence on the target website using `wafw00f`.
+ **Step 2**: Crawls the site using `Katana`, extracting JavaScript-heavy links, sitemaps, and robots.txt.
+ **Step 3**: Probes discovered URLs using `HTTPX` to identify live hosts.
+ **Step 4**: Scans live URLs for vulnerabilities with `Nuclei`, leveraging its powerful template engine.
 
 ---
 
@@ -127,11 +127,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 If you enjoy using **yxanul**, feel free to ⭐ the repo and share it with the community!
 
----
-
-Let me know if you’d like to modify anything further! 🚀
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
