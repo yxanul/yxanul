@@ -68,8 +68,11 @@ For faster scans:
 ## 🛠️ How It Works
 
  **Step 1**: Detects WAF presence on the target website using `wafw00f`.
+ 
  **Step 2**: Crawls the site using `Katana`, extracting JavaScript-heavy links, sitemaps, and robots.txt.
+ 
  **Step 3**: Probes discovered URLs using `HTTPX` to identify live hosts.
+ 
  **Step 4**: Scans live URLs for vulnerabilities with `Nuclei`, leveraging its powerful template engine.
 
 ---
